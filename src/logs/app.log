@@ -1,0 +1,43 @@
+2024-11-10 01:46:39.070 | INFO     | config.features_settings:__init__:33 - Cargando configuraciones de features desde C:\Users\Jorge Robledo\Documents\Python\Scripts_and_Notebooks\Artificial_Intelligence\MLOps\From Data Scientist to ML Engineer\src\config\features.yaml
+2024-11-10 01:46:40.951 | INFO     | config.features_settings:__init__:33 - Cargando configuraciones de features desde C:\Users\Jorge Robledo\Documents\Python\Scripts_and_Notebooks\Artificial_Intelligence\MLOps\From Data Scientist to ML Engineer\src\config\features.yaml
+2024-11-10 01:46:40.952 | INFO     | __main__:main:6 - Ejecutando la aplicación
+2024-11-10 01:46:40.952 | INFO     | model.model_service:load_model:22 - Comprobando la existencia del archivo de configuración del modelo en la ruta: C:\Users\Jorge Robledo\Documents\Python\Scripts_and_Notebooks\Artificial_Intelligence\MLOps\From Data Scientist to ML Engineer\src\model\models\model_v1.pkl
+2024-11-10 01:46:40.972 | INFO     | model.model_service:load_model:35 - Modelo cargado exitosamente.
+2024-11-10 01:46:40.972 | INFO     | model.model_service:predict:43 - Haciendo predicción del modelo
+2024-11-10 01:46:40.977 | INFO     | __main__:main:11 - Predicción: 3411.75
+2024-11-10 01:47:49.436 | INFO     | config.features_settings:__init__:33 - Cargando configuraciones de features desde C:\Users\Jorge Robledo\Documents\Python\Scripts_and_Notebooks\Artificial_Intelligence\MLOps\From Data Scientist to ML Engineer\src\config\features.yaml
+2024-11-10 01:47:49.822 | INFO     | config.features_settings:__init__:33 - Cargando configuraciones de features desde C:\Users\Jorge Robledo\Documents\Python\Scripts_and_Notebooks\Artificial_Intelligence\MLOps\From Data Scientist to ML Engineer\src\config\features.yaml
+2024-11-10 01:47:49.822 | INFO     | __main__:main:6 - Ejecutando la aplicación
+2024-11-10 01:47:49.823 | INFO     | model.model_service:load_model:22 - Comprobando la existencia del archivo de configuración del modelo en la ruta: C:\Users\Jorge Robledo\Documents\Python\Scripts_and_Notebooks\Artificial_Intelligence\MLOps\From Data Scientist to ML Engineer\src\model\models\model_v1.pkl
+2024-11-10 01:47:49.823 | WARNING  | model.model_service:load_model:27 - Modelo en la ruta: C:\Users\Jorge Robledo\Documents\Python\Scripts_and_Notebooks\Artificial_Intelligence\MLOps\From Data Scientist to ML Engineer\src\model\models\model_v1.pkl no fue encontrado. Construyendo el modelo...
+2024-11-10 01:47:49.823 | INFO     | model.pipeline.model:build_model:14 - Empezamos la construcción de la pipeline
+2024-11-10 01:47:49.823 | INFO     | model.pipeline.preparation:prepare_data:12 - Iniciando la preparación de datos
+2024-11-10 01:47:49.823 | INFO     | model.pipeline.preparation:prepare_data:16 - Cargando datos desde la base de datos...
+2024-11-10 01:47:49.823 | INFO     | model.pipeline.collection:load_data_from_db:13 - Extrayendo la tabla de la base de datos
+2024-11-10 01:47:49.831 | INFO     | model.pipeline.preparation:prepare_data:18 - Datos cargados exitosamente desde la base de datos
+2024-11-10 01:47:49.831 | INFO     | model.pipeline.preparation:encode_cat_cols:37 - Codificando variables categóricas: ['balcony', 'storage', 'parking', 'furnished', 'garage']
+2024-11-10 01:47:49.833 | INFO     | model.pipeline.preparation:parse_col:45 - Parseando las columnas: ['garden']
+2024-11-10 01:47:49.835 | INFO     | model.pipeline.preparation:prepare_data:29 - Excluyendo las columnas: ['address', 'energy', 'facilities', 'zip', 'neighborhood']
+2024-11-10 01:47:49.835 | INFO     | model.pipeline.preparation:prepare_data:31 - Pipeline de preprocesamiento completada
+2024-11-10 01:47:49.835 | INFO     | model.pipeline.model:split_features_target:41 - Definimos nuestras variables y nuestro target
+2024-11-10 01:47:49.836 | INFO     | model.pipeline.model:build_model:24 - Separamos en conjunto de train y test
+2024-11-10 01:48:02.292 | INFO     | model.pipeline.model:train_model:63 - Entrenamos el modelo con sus hiperparámetros
+2024-11-10 01:48:02.301 | INFO     | model.pipeline.model:build_model:31 - Evaluamos el modelo, score: 0.79
+2024-11-10 01:48:02.310 | INFO     | model.pipeline.model:save_model:87 - Guardamos el modelo en el siguiente directorio: C:\Users\Jorge Robledo\Documents\Python\Scripts_and_Notebooks\Artificial_Intelligence\MLOps\From Data Scientist to ML Engineer\src\model\models\model_v1.pkl
+2024-11-10 01:48:02.324 | INFO     | model.model_service:load_model:35 - Modelo cargado exitosamente.
+2024-11-10 01:48:02.324 | INFO     | model.model_service:predict:43 - Haciendo predicción del modelo
+2024-11-10 01:48:02.327 | INFO     | __main__:main:11 - Predicción: 4082.46
+2024-11-10 01:53:58.472 | INFO     | config.features_settings:__init__:33 - Cargando configuraciones de features desde C:\Users\Jorge Robledo\Documents\Python\Scripts_and_Notebooks\Artificial_Intelligence\MLOps\From Data Scientist to ML Engineer\src\config\features.yaml
+2024-11-10 01:53:58.861 | INFO     | config.features_settings:__init__:33 - Cargando configuraciones de features desde C:\Users\Jorge Robledo\Documents\Python\Scripts_and_Notebooks\Artificial_Intelligence\MLOps\From Data Scientist to ML Engineer\src\config\features.yaml
+2024-11-10 01:53:58.862 | INFO     | __main__:main:6 - Ejecutando la aplicación
+2024-11-10 01:53:58.862 | INFO     | model.model_service:load_model:22 - Comprobando la existencia del archivo de configuración del modelo en la ruta: C:\Users\Jorge Robledo\Documents\Python\Scripts_and_Notebooks\Artificial_Intelligence\MLOps\From Data Scientist to ML Engineer\src\model\models\model_v1.pkl
+2024-11-10 01:53:58.873 | INFO     | model.model_service:load_model:35 - Modelo cargado exitosamente.
+2024-11-10 01:53:58.873 | INFO     | model.model_service:predict:43 - Haciendo predicción del modelo
+2024-11-10 01:53:58.876 | INFO     | __main__:main:11 - Predicción: 4082.46
+2024-11-10 02:10:47.180 | INFO     | config.features_settings:__init__:32 - Cargando configuraciones de features desde C:\Users\Jorge Robledo\Documents\Python\Scripts_and_Notebooks\Artificial_Intelligence\MLOps\From Data Scientist to ML Engineer\src\config\features.yaml
+2024-11-10 02:10:47.587 | INFO     | config.features_settings:__init__:32 - Cargando configuraciones de features desde C:\Users\Jorge Robledo\Documents\Python\Scripts_and_Notebooks\Artificial_Intelligence\MLOps\From Data Scientist to ML Engineer\src\config\features.yaml
+2024-11-10 02:10:47.588 | INFO     | __main__:main:6 - Ejecutando la aplicación
+2024-11-10 02:10:47.588 | INFO     | model.model_service:load_model:22 - Comprobando la existencia del archivo de configuración del modelo en la ruta: C:\Users\Jorge Robledo\Documents\Python\Scripts_and_Notebooks\Artificial_Intelligence\MLOps\From Data Scientist to ML Engineer\src\model\models\model_v1.pkl
+2024-11-10 02:10:47.599 | INFO     | model.model_service:load_model:35 - Modelo cargado exitosamente.
+2024-11-10 02:10:47.600 | INFO     | model.model_service:predict:43 - Haciendo predicción del modelo
+2024-11-10 02:10:47.603 | INFO     | __main__:main:11 - Predicción: 4082.46

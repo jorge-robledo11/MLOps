@@ -1,0 +1,31 @@
+# Configuración de features
+
+categorical_columns:
+  - balcony
+  - storage
+  - parking
+  - furnished
+  - garage
+
+exclude_columns:
+  - address
+  - energy
+  - facilities
+  - zip
+  - neighborhood
+
+parse_columns:
+  - garden
+
+features_prediction:
+  - area
+  - constraction_year
+  - rooms
+  - bedrooms
+  - bathrooms
+  - balcony
+  - storage
+  - parking
+  - furnished
+  - garage
+  - garden
