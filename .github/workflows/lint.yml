@@ -24,3 +24,6 @@ jobs:
 
     - name: Lint with flake8
       run: poetry run make check
+    
+    - name: List installed dependencies
+      run: poetry show --tree
