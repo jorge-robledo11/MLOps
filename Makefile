@@ -12,7 +12,7 @@ run: install
 # Objetivo para instalar dependencias usando Poetry
 # Se asegura de que `pyproject.toml` esté presente antes de instalar
 install: pyproject.toml
-	poetry install --only main
+	poetry install --without dev
 
 # Objetivo para limpiar archivos temporales, como carpetas de caché de Python
 clean:
