@@ -19,9 +19,6 @@ runs:
     with:
       virtualenvs-in-project: true
 
-  - name: Checking main dependencies
-    run: poetry show --without dev
-
   - name: Load cached venv
     uses: actions/cache@v4
     id: cached-poetry-dependencies
