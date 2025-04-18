@@ -1,13 +1,16 @@
 # Declarar que estos objetivos no representan archivos sino tareas a ejecutar siempre
-.PHONY: run install clean check runner
+.PHONY: run_builder run_builder inference install clean check builder inference
 
 # Definir el objetivo predeterminado cuando se ejecuta `make` sin especificar un objetivo
-.DEFAULT_GOAL := runner
+.DEFAULT_GOAL := inference
 
 # Objetivo para ejecutar la aplicación
 # Primero ejecuta el objetivo `install` para asegurar que las dependencias estén instaladas
-run: install
-	cd src && poetry run python main.py
+run_builder: install
+	cd src && poetry run python builder.py
+
+run_inference: install
+	cd src && poetry run python inference.py
 
 # Objetivo para instalar dependencias usando Poetry
 # Se asegura de que `pyproject.toml` esté presente antes de instalar
@@ -24,4 +27,5 @@ check:
 
 # Objetivo `runner` que ejecuta una secuencia de objetivos: check, run y clean
 # Primero verifica la calidad del código, luego ejecuta la aplicación, y finalmente limpia archivos temporales
-runner: check run clean
+builder: check run_builder clean
+inference: check run_inference clean
